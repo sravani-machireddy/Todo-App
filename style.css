@@ -11,8 +11,8 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
+    margin: 200px auto 20px;
+    padding: 40px 30px 5px;
 }
 
 .header h2 {
@@ -73,6 +73,7 @@ ul li {
     position: relative;
     border-radius: 30px;
     margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -125,11 +126,10 @@ ul li span:hover {
 
 .task-stats {
     margin-top: 20px;
-    padding: 10px 15px;
-    background: #edeef0;
-    border-radius: 10px;
-    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #002765;
     display: flex;
     justify-content: space-between;
+    border-top: #002765 1px solid;
 }

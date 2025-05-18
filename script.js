@@ -6,6 +6,7 @@ function addTask() {
   const newTask = todoInput.value.trim();
   if (newTask === "") {
     alert("Please enter a task.");
+    return;
   }
 
   //Check for duplicates (case in-sensitive)
