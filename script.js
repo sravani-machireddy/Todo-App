@@ -75,3 +75,10 @@ function updateTaskCounts() {
 
 //Initial call on page load
 showData();
+
+// Allow pressing Enter to add a task
+todoInput.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    addTask();
+  }
+});
