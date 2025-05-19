@@ -1,8 +1,11 @@
 .container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     min-height: 100vh;
     padding: 10px;
     background: linear-gradient(135deg, #e4e267, #5786b5);
+    align-items: center;
 }
 
 .header {
@@ -11,7 +14,7 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin: 200px auto 20px;
+    margin: 150px auto 20px;
     padding: 40px 30px 5px;
 }
 
@@ -132,4 +135,30 @@ ul li span:hover {
     display: flex;
     justify-content: space-between;
     border-top: #002765 1px solid;
+}
+.footer {
+  display: flex;
+  gap: 1.8rem;
+  background-color: white;
+    padding: 10px 20px; 
+  border-radius: 10px;
+  justify-content:space-evenly;
+  margin-top: 30px;
+  max-width: 200px;
+  
+}
+
+.made-by,
+.author {
+  font-size: 18px;
+}
+
+.made-by {
+ color: #002765;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.author {
+ color: #002765;
+  font-weight: bold;
 }
